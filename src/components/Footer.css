@@ -1,0 +1,60 @@
+.footer {
+  padding: 2rem;
+  height: 90px;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  /* UNDO COMMENTS on POSITION & BOTTOM when contact info can be removed */
+  /* position: sticky;
+    bottom: 0; */
+}
+
+h1 {
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  white-space: nowrap;
+  /* gap was 2rem before adding twitter */
+  gap: 1rem;
+  margin-left: 35px;
+}
+
+.footer_item {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* gap: 0.5rem; */
+  color: var(--text-color);
+  font-weight: 400;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  color: #727171;
+  font-weight: lighter;
+  padding-top: 20px;
+  /* padding-bottom: 20px; */
+  cursor: pointer;
+}
+
+#interest_icon {
+  height: auto;
+  width: 3.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+#interest_icon:hover {
+  transform: scale(1.2);
+}
+
+.interest_item svg {
+  width: 2rem;
+}
