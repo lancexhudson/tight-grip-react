@@ -19,19 +19,6 @@
   max-width: 1500px;
 }
 
-.sxf-logo {
-  background-image: url('https://user-images.githubusercontent.com/106623072/233877472-e9c2a251-3cd2-4130-a081-acac4f21f9c5.png');
-  width: 250px;
-  height: 80px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  /* No margin left before adding logo */
-  margin-left: -5px;
-  /* No margin bottom before adding logo */
-  margin-bottom: 10px;
-}
-
 .navbar-logo {
   color: #fff;
   justify-self: start;
