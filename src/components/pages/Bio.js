@@ -6,7 +6,7 @@ function Bio() {
   return (
     <div>
       <HeroBio />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

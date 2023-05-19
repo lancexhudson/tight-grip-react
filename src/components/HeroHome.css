@@ -1,21 +1,22 @@
 .hero-container {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
-    url('/src/assets/background.jpg') center top / cover no-repeat;
+    url('/src/assets/DSC06340.jpg') center top / cover no-repeat;
+  /* ,
+      url('/src/assets/background.jpg') center top/ cover no-repeat; */
   /* alt way of doing background image: center center w/ background2.jpg 
-   + remove  background-attachment: fixed*/
-  /* background-position: center; */
+     + remove  background-attachment: fixed*/
+  /* background-position: fixed; */
   background-attachment: fixed;
-  padding-top: 35px;
-  height: 100vh;
-  /* 100VW is new. give it a shot */
-  width: 100vw;
-  /* max-width: 1200px; */
+  height: 77vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); */
   object-fit: contain;
-  overflow-y: hidden;
+  padding-bottom: 25px;
+  overflow: hidden;
 }
 
 .hero-container > h1 {
@@ -35,4 +36,12 @@
 #news {
   color: #fff;
   font-size: 26px;
+}
+
+#news-detail {
+  display: flex;
+  text-align: center;
+  font: 16px;
+  color: #fff;
+  padding: 40px;
 }
