@@ -16,7 +16,7 @@
   object-fit: contain;
   flex-wrap: wrap;
   padding-bottom: 25px;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .merch-container {
@@ -27,7 +27,7 @@
   border: 1.5px solid #fff;
   padding: 20px;
   border-radius: 8px;
-  margin: 25px;
+  /* margin: 25px; */
 }
 
 .album-music-container:hover {
@@ -52,6 +52,17 @@
   width: 100%;
   height: auto;
   max-width: 310px;
+  padding: 20px;
+}
+
+.artwork:hover {
+  transform: scale(1.01);
+}
+
+.description {
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: #fff;
 }
 
 @media screen and (max-width: 960px) {
@@ -63,6 +74,39 @@
     display: block;
     overflow: scroll;
   }
+}
+
+.TEST-container {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 700px;
+  border: 1.5px solid #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 25px;
+}
+
+.TEST-image {
+  max-width: 250px;
+}
+.TEST-info {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-weight: 200;
+  font-size: clamp(1rem, 4vw, 2rem);
+  text-transform: uppercase;
+  /* display: block; */
+  margin-left: 0.8rem;
+  margin-bottom: -0.8rem;
+}
+
+.profile_title {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 768px) {
