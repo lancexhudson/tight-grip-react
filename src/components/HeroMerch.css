@@ -30,9 +30,9 @@
   /* margin: 25px; */
 }
 
-.album-music-container:hover {
+/* .merch-container:hover {
   transform: scale(1.01);
-}
+} */
 
 #title:hover {
   cursor: pointer;
