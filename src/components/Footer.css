@@ -2,9 +2,8 @@
   padding: 2rem;
   height: 90px;
   background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
-  /* UNDO COMMENTS on POSITION & BOTTOM when contact info can be removed */
-  /* position: sticky;
-    bottom: 0; */
+  position: sticky;
+  bottom: 0;
 }
 
 h1 {
@@ -16,7 +15,6 @@ h1 {
   align-items: center;
   justify-content: space-evenly;
   white-space: nowrap;
-  /* gap was 2rem before adding twitter */
   gap: 1rem;
   margin-left: 35px;
 }
