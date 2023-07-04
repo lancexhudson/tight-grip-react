@@ -18,8 +18,8 @@ function HeroBio() {
           <div id="title">Ryan Schomber</div>
           <div id="title-sub">vocals</div>
           <p className="description">
-            Hi. My name is Ryan. I am from Indiana. I like American Night and
-            probably don't give a damn about you or your trends.
+            Hi. My name is Ryan. I am from Indiana. I like American Nightmare
+            and probably don't give a damn about you or your trends.
           </p>
           <div className="dude-pics">
             <img src={TGwhite} alt="Ryan" className="dude-pics-detail" />

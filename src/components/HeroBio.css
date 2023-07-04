@@ -17,7 +17,7 @@
   padding-bottom: 25px;
   overflow: auto;
   padding-top: 25px;
-  /* object-fit: contain; */
+  object-fit: contain;
   /* overflow-y: hidden; */
 }
 
@@ -26,41 +26,44 @@
   display: flex;
   flex-direction: row;
   /* align-items: center; */
-  border: 1.5px solid #fff;
+  /* border: 1.5px solid #fff; */
   padding: 20px;
   border-radius: 8px;
-  margin: 25px;
+  margin: 20px;
+  /* max-width: 700px; */
 }
 
 #about {
-  /* display: flex;
-    flex-direction: column;
-    align-items: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   color: #fff;
-  font-size: 16px;
+  font-size: 1.8rem;
   /* padding-bottom: 0.5rem; */
   /* width: 100%; */
-  max-width: 675px;
+  /* max-width: 675px; */
   padding: 20px;
 }
 
 .info {
   display: flex;
   flex-direction: column;
-  margin-top: 28px;
+  margin-top: 20px;
   padding-right: 20px;
 }
 
 .dude-pics {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .dude-pics-detail {
   width: 100%;
   height: auto;
   max-width: 200px;
-  padding: 20px;
+  padding: 15px;
 }
 
 #title:hover {
@@ -69,12 +72,12 @@
 
 #title {
   color: #fff;
-  font-size: 26px;
+  font-size: 4.6rem;
 }
 
 #title-sub {
   color: #fff;
-  font-size: 15px;
+  font-size: 3.5rem;
 }
 
 .artwork {
@@ -97,7 +100,7 @@
 }
 
 @media screen and (max-width: 960px) {
-  .hero-merch-container {
+  .hero-bio-container {
     background-attachment: fixed;
     font-size: 70px;
     padding-top: 100px;
@@ -106,7 +109,7 @@
     overflow: scroll;
   }
 
-  .merch-container {
+  .bio-container {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
     display: flex;
     flex-direction: column;
@@ -118,19 +121,44 @@
     margin: 25px;
   }
 
-  .profile_title {
+  #title {
     font-size: 1.5rem;
     font-weight: 400;
     text-transform: uppercase;
   }
+
+  /* .dude-pics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .dude-pics-detail {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    padding: 15px;
+  } */
 }
 
 @media screen and (max-width: 768px) {
-  .hero-merch-container {
+  .hero-bio-container {
     background-attachment: fixed;
     display: block;
     font-size: 50px;
     margin-top: -100px;
+  }
+
+  .bio-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 700px; */
+    border: 1.5px solid #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 25px;
   }
 
   #title {
@@ -141,5 +169,19 @@
   #description {
     color: #fff;
     font-size: 15px;
+  }
+
+  .dude-pics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dude-pics-detail {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    padding: 15px;
   }
 }
