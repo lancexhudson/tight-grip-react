@@ -3,6 +3,7 @@ import './HeroMerch.css';
 import TGwhite from '../assets/TGwhite.jpeg';
 import TGblue from '../assets/TGblue.png';
 import TGblack from '../assets/TGblack.jpeg';
+import test from '../assets/test.jpg';
 
 const HeroMerch = () => {
   return (
@@ -19,26 +20,24 @@ const HeroMerch = () => {
 
       <div className="merch-container">
         <div id="title">"Breathe"</div>
-        {/* <div id="title-sub">subtext</div> */}
         <div className="artwork">
           <img src={TGwhite} alt="Breathe" className="artwork" />
-          {/* </div> */}
         </div>
         <p className="description">Sizes: S - XL</p>
       </div>
+
       <div className="merch-container">
         <div id="title">"Panther"</div>
-        {/* <div id="title-sub">subtext</div> */}
         <div className="artwork">
-          <img src={TGblue} alt="Panther" className="artwork" />
+          <img src={test} alt="Panther" className="artwork" />
         </div>
         <p className="description">Sizes: S - XL</p>
       </div>
+
       <div className="merch-container">
         <div id="title">"Dangerous"</div>
-        {/* <div id="title-sub">subtext</div> */}
         <div className="artwork">
-          <img src={TGblack} alt="You Made Me Dangerous" className="artwork" />
+          <img src={test} alt="You Made Me Dangerous" className="artwork" />
         </div>
         <p className="description">Sizes: S - XL</p>
       </div>

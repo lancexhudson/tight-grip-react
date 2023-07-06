@@ -10,13 +10,16 @@
   height: 100vh;
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  object-fit: contain;
   flex-wrap: wrap;
-  padding-bottom: 25px;
-  overflow: hidden;
+  padding-bottom: 80px;
+  overflow: auto;
+  object-fit: contain;
+  margin-top: -80px;
+  margin-bottom: -80px;
+  padding: 25px;
 }
 
 .merch-container {
@@ -24,11 +27,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   border: 1.5px solid #fff;
   padding: 20px;
   border-radius: 8px;
-
-  /* margin: 25px; */
+  margin: 25px;
 }
 
 /* .merch-container:hover {
@@ -41,13 +44,14 @@
 
 #title {
   color: #fff;
-  font-size: 26px;
+  font-size: 1.5rem;
+  /* margin-bottom: -15px; */
 }
 
-#title-sub {
+/* #title-sub {
   color: #fff;
-  font-size: 15px;
-}
+  font-size: 8.9rem;
+} */
 
 .artwork {
   width: 100%;
@@ -64,7 +68,7 @@
 }
 
 .description {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 200;
   color: #fff;
 }
@@ -88,7 +92,7 @@
     border: 1.5px solid #fff;
     padding: 20px;
     border-radius: 8px;
-    margin: 25px;
+    margin: 20px;
   }
 
   .profile_title {
@@ -104,6 +108,7 @@
     display: block;
     font-size: 50px;
     margin-top: -100px;
+    padding: 25px;
   }
 
   #title {
