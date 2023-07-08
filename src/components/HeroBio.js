@@ -15,9 +15,9 @@ function HeroBio() {
           {/* </div> */}
         </div>
         <div className="info">
-          <div id="title">Ryan Schomber</div>
-          <div id="title-sub">vocals</div>
-          <p className="description">
+          <div id="name">Ryan Schomber</div>
+          <div id="role">vocals</div>
+          <p className="bio-about">
             Hi. My name is Ryan. I am from Indiana. I like American Nightmare
             and probably don't give a damn about you or your trends.
           </p>
@@ -35,9 +35,9 @@ function HeroBio() {
           {/* </div> */}
         </div>
         <div className="info">
-          <div id="title">Ryan Schomber</div>
-          <div id="title-sub">vocals</div>
-          <p className="description">
+          <div id="name">Ryan Schomber</div>
+          <div id="role">vocals</div>
+          <p className="bio-about">
             Hi. My name is Ryan. I am from Indiana. I like American Night and
             probably don't give a damn about you or your trends.
           </p>

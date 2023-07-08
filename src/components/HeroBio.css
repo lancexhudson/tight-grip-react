@@ -65,12 +65,12 @@
   cursor: pointer;
 }
 
-#title {
+#name {
   color: #fff;
   font-size: 4.6rem;
 }
 
-#title-sub {
+#role {
   color: #fff;
   font-size: 3.5rem;
 }
@@ -86,7 +86,7 @@
   transform: scale(1.01);
 }
 
-.description {
+.bio-about {
   font-size: 1rem;
   font-weight: 200;
   color: #fff;
@@ -116,7 +116,7 @@
     margin: 25px;
   }
 
-  #title {
+  #name {
     font-size: 1.5rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -156,12 +156,12 @@
     margin: 25px;
   }
 
-  #title {
+  #name {
     color: #fff;
     font-size: 22px;
   }
 
-  #description {
+  #bio-about {
     color: #fff;
     font-size: 15px;
   }
