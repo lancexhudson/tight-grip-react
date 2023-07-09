@@ -11,7 +11,7 @@ const HeroMerch = () => {
       <div className="merch-container">
         <div id="merch-title">"Breathe"</div>
         <div className="design">
-          <img src={TGwhite} alt="Breathe" className="artwork" />
+          <img src={TGwhite} alt="Breathe" className="design" />
         </div>
         <p className="description">Sizes: S - XL</p>
       </div>
@@ -19,7 +19,7 @@ const HeroMerch = () => {
       <div className="merch-container">
         <div id="merch-title">"Panther"</div>
         <div className="design">
-          <img src={test} alt="Panther" className="artwork" />
+          <img src={test} alt="Panther" className="design" />
         </div>
         <p className="description">Sizes: S - XL</p>
       </div>
@@ -27,7 +27,7 @@ const HeroMerch = () => {
       <div className="merch-container">
         <div id="merch-title">"Dangerous"</div>
         <div className="design">
-          <img src={test} alt="You Made Me Dangerous" className="artwork" />
+          <img src={test} alt="You Made Me Dangerous" className="design" />
         </div>
         <p className="description">Sizes: S - XL</p>
       </div>

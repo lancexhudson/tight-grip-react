@@ -6,12 +6,12 @@ import TGwhite from '../assets/TGwhite.jpeg';
 function HeroBio() {
   return (
     <div className="hero-bio-container">
-      <p id="about">
+      <p id="about-band">
         Tight Grip is a melodic hardcore band from Cincinnati, OH USA.
       </p>
       <div className="bio-container">
-        <div className="artwork">
-          <img src={TGwhite} alt="Breathe" className="artwork" />
+        <div className="profile-pic">
+          <img src={TGwhite} alt="Breathe" className="profile-pic" />
           {/* </div> */}
         </div>
         <div className="info">
@@ -29,17 +29,18 @@ function HeroBio() {
           </div>
         </div>
       </div>
+
       <div className="bio-container">
-        <div className="artwork">
-          <img src={TGwhite} alt="Breathe" className="artwork" />
+        <div className="profile-pic">
+          <img src={TGwhite} alt="Breathe" className="profile-pic" />
           {/* </div> */}
         </div>
         <div className="info">
           <div id="name">Ryan Schomber</div>
           <div id="role">vocals</div>
           <p className="bio-about">
-            Hi. My name is Ryan. I am from Indiana. I like American Night and
-            probably don't give a damn about you or your trends.
+            Hi. My name is Ryan. I am from Indiana. I like American Nightmare
+            and probably don't give a damn about you or your trends.
           </p>
           <div className="dude-pics">
             <img src={TGwhite} alt="Ryan" className="dude-pics-detail" />
